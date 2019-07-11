@@ -23,7 +23,7 @@ session_start();
 <div class="msg">
 <form method='post' autocomplete="off">
 <input type="text" placeholder="Topic" name="topic" id="topic">
-<input type="text" placeholder="Message" name="msg" id="msg">
+<textarea placeholder="Type your message here...." name="msg" id="msg" rows="4" style="resize:none;"></textarea>
 <input type="submit" id="send" value="Send" name="send">
 </form>
 </div>

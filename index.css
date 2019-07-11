@@ -25,7 +25,7 @@
     border-radius:7px;
     width:80%;
 }
-input{
+input,textarea{
     font-size:15px;
     margin:  1rem;
     padding:.8rem;
@@ -34,7 +34,10 @@ input{
     border:none;
     background:rgba(200,200,200,1);
 }
+
+
 #send{
+    color:white;
 padding:0.7rem;
 text-align:center;
 cursor:pointer;
@@ -75,9 +78,9 @@ img{
     width:350px;
     z-index:3;
     position:fixed;
-    top:54%;
+    top:60%;
     left:57%;
-    transform:translate(-54%,-57%);
+    transform:translate(-60%,-57%);
     padding:0.5rem;
     color:rgba(80,80,80,1);
     box-shadow:1px 1px 1px 1px rgba(120,120,120,1);
