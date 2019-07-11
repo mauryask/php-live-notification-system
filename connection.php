@@ -2,7 +2,7 @@
 $charset = "UTF8";
 $servername = "localhost";
 $username = "root";
-$password = "proxyx";
+$password = "";
 $dbname = "notification";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
