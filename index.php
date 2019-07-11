@@ -8,7 +8,7 @@ session_start();
     <meta charset="utf-8">
     <meta name="author"  content="Shubham Maurya">
     <meta name="viewport"  content="width=device-width, initial-scale=1.0">
-<title>Notification</title>
+<title>Live Notification | PHP | AJAX </title>
 <link href="index.css" type="text/css" rel="stylesheet">
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.js" type="text/javascript"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8" type="text/javascript"></script>
