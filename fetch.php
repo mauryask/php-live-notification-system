@@ -13,14 +13,4 @@ if($num_row>0)
     echo $num_row;
 }
 
-/*
-if (num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-    echo "id: " . $row["id"]. "  Notification: " . $row["topic"]."<br>";      
-    }
-} else {
-    echo "0 results";
-}*/
-
 ?>
