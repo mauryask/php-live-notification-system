@@ -8,7 +8,6 @@
 <title>Live Notification | PHP | AJAX </title>
 <link href="index.css" type="text/css" rel="stylesheet">
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.js" type="text/javascript"></script>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8" type="text/javascript"></script>
 </head>
 <body>
 
@@ -34,13 +33,15 @@
 
 <script type="text/javascript">
 
+/* ===================  Display Notification   ==================== */
+
 var action=1;
 function show()
 {
 if(action==1)
 {
 
-//setInterval(function(){
+
 
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
@@ -52,7 +53,7 @@ xhttp.onreadystatechange = function() {
 xhttp.open("GET", "get_noti.php", true);
 xhttp.send();
 
-//},1000);
+
 
 document.getElementById('popup').style.display='block';
 
@@ -70,6 +71,8 @@ action=1;
 
 
 $(document).ready ( function(){
+
+/* ===================  Send Notification   ==================== */
 
 $("#send").click(function(){
 
@@ -94,7 +97,7 @@ var msg = $('#msg').val().trim();
 
 })
 
-/* ===================   Live Notification  number of notification    ==================== */
+/* ===================   Get total Number of notifications   ==================== */
 function loadDoc() {
 
 setInterval(function(){

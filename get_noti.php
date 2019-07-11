@@ -1,4 +1,5 @@
 <?php
+/* ===================  get notifications   ==================== */
 include_once('connection.php');
 
 $sql = "SELECT * FROM notify";
